@@ -1,0 +1,17 @@
+$color-primary: #58B7FF;//#18c79c
+// $color-primary: #20a0ff;//#18c79c
+
+.text-primary{
+    color:$color-primary;
+}
+
+
+
+.success-even {
+    tr:nth-child(even){
+    background-color:#f0f9eb!important;
+        & td{
+            background-color:transparent!important;
+        }
+    }
+}
