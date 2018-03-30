@@ -24,7 +24,7 @@ export default {
     name: 'headerBar',
     data(){
         return{
-            sysName: '腾楷货架后台管理',
+            sysName: '自定义后台管理',
             collapsed: false,
             sysUserName: '',
             sysUserAvatar: '',
@@ -79,8 +79,9 @@ export default {
 .header {
     height: 60px;
     line-height: 60px;
-    background-image: linear-gradient(90deg,lighten(#2371d1,8%) 0%,#2371d1 90%);
-    background-image: -webkit-linear-gradient(90deg,lighten(#2371d1,8%) 0%,#2371d1 90%);
+    // background-image: linear-gradient(90deg,lighten(#2371d1,8%) 0%,#2371d1 90%);
+    // background-image: -webkit-linear-gradient(90deg,lighten(#2371d1,8%) 0%,#2371d1 90%);
+    background: #20a0ff;
     color: #fff;
     position: fixed;
     top: 0;
@@ -110,7 +111,7 @@ export default {
     .logo {
         //width:230px;
         height: 60px;
-        font-size: 22px;
+        font-size: 21px;
         padding-left: 20px;
         padding-right: 20px;
         img {

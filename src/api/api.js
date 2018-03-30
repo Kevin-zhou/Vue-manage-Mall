@@ -6,7 +6,7 @@ import { Message } from 'element-ui';
 
 // const baseUrl= "http://192.168.16.25/mapi/cvsm";
 // const baseUrl= "http://192.168.16.25/mapi/cvsm";
-const baseUrl= "http://192.168.16.25:9000/cvsm";
+const baseUrl= "http://192.168.16.25/mapi/cvsm";
 
 
 

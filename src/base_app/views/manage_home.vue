@@ -6,7 +6,7 @@
         <asideMenu v-bind:menus="asideMenus"></asideMenu>
         <loginDialogConfirm v-bind:dialogVisible="loginDialogVisible"></loginDialogConfirm>
         <!--右侧主视窗区域-->
-        <div class="table-outer">           
+        <div class="table-outer">
                 <section class="content-container bg-purple-light">
 
                     <transition name="fade" mode="out-in">
@@ -14,7 +14,7 @@
                     </transition>
 
                 </section>
-           
+
         </div>
     </div>
 </template>
@@ -54,12 +54,12 @@ export default {
     },
     created: function() {
         const isLogin = __isLogin();
-        if (isLogin) this.updateLoginDialog(false);
-        else this.updateLoginDialog(true);
+        // if (isLogin) this.updateLoginDialog(false);
+        // else this.updateLoginDialog(true);
 
-        __Events.subscribe('toggleLoginDialog', res => {
-            this.updateLoginDialog(res)
-        })
+        // __Events.subscribe('toggleLoginDialog', res => {
+        //     this.updateLoginDialog(res)
+        // })
     }
 }
 
